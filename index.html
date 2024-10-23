@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Portafolio 💻</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="pacman.css">
+
+
+  <script type="text/javascript"></script>
+</head>
+
+
+
+
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span> Portafolio</span> </a>
+
+
+
+
+
+    <nav class="navbar">
+      <a href="#" class="active">Sobre Mi</a>
+
+      <a href="#js"> Juegos</a>
+
+      <a href="#demos"> Demostraciones web</a>
+
+      <a href="#">Metas Futuras</a>
+      <a href="#">Conctacto</a>
+    </nav>
+    <a href="#" class="contact">¡Contactame!</a>
+  </header>
+
+
+  <section class="home">
+
+    <div class="home-content">
+      <h3> </h3>
+
+
+      <h1 onmouseover="cambiarColor()" onmouseout="cambiarColor2()"><span id="nombre">Madeline <br></span>Toledo</h1>
+
+      <p> Estudiantes del Tecnico Profesional en Programacion del colegio Arturo Matte Larrain.
+      </p>
+      <p> </p>
+    </div>
+    <div class="img-box">
+
+
+      <div class=" about-img" onclick="alerta()">
+        <img src="img/yo.png" alt="Madeline Toledo">
+      </div>
+
+    </div>
+
+
+
+  </section>
+  <!-- INICIO SECCION DE JUEGOS -->
+
+  <div id="js">
+    <section id="sobreMi">
+      <h1 id="title-sobreMi">Juegos<span> js 🎮</span> </h1>
+
+
+      <div id="contentCards">
+
+
+
+        <!-- JUEGO DE PACMAN -->
+        <div id="sobreMiCard">
+
+
+          <video src="p.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <a href="juegos/pacman/juego_pacman.html">
+              <h2 class="card-h2">Pac-Man</h2>
+            </a>
+            <p class="card-p"> El Principal Objectivo del Juego Pac Man es Comer Todos los sandwich en el laberinto
+              mientras
+              Se evita ser atrapado por el Perro.
+
+            </p>
+          </figcaption>
+        </div>
+
+
+        <!-- JUEGO DEL GATO -->
+
+        <div id="sobreMiCard">
+          <video src="video de gato.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="juegos/gato/index.html">Juego del gato</a></h2>
+
+            <p class="card-p">El Principal objectivo es solo que el gato se mueva de izquierda a derecha y arriba abajo.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+        <!-- OTRO JUEGO -->
+
+        <div id="sobreMiCard">
+          <video src="snake.mp4" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="juegos/snake/index.html">Juego del gusano</a></h2>
+
+            <p class="card-p">El Principal objectivo es solo que el gato se mueva de izquierda a derecha y arriba abajo.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+
+
+    </section>
+  </div>
+
+
+
+  <!-- INICIO SECCION DE DEMOSTRACIONES -->
+
+
+  <div id="demos">
+    <section id="sobreMi">
+      <h1 id="title-sobreMi">Demostraciones de HTML & <span>CSS</span> </h1>
+
+
+      <div id="contentCards">
+
+
+
+        <!-- DEMOSTRACION UNO -->
+        <div id="sobreMiCard">
+
+
+          <!-- <video src="p.mp4" autoplay muted loop class="videito"></video> -->
+          <img src="demostraciones/demo1/demo1.png" alt="" class="videito">
+          <figcaption id="sobreMi-figcaption-2">
+            <a href="demostraciones/demo1/index.html">
+              <h2 class="card-h2">Modernize</h2>
+            </a>
+            <p class="card-p"> Esta pagina fue construida dentro de 24 hrs. con HTML y CSS puro.
+
+            </p>
+          </figcaption>
+        </div>
+
+
+        <!-- DEMOSTRACION DOS -->
+
+        <div id="sobreMiCard">
+          <img src="img/demostracion 2.png" alt="" class="videito">
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="demostraciones/demo2/formaA/Index.html">Easy Bay</a></h2>
+
+            <p class="card-p">Esta pagina fue contruidad con HTML & CSS y El Tema Centra de esta Pagina Web es la Venta
+              de Las plantas para tu Jardin o puede ser para tu Hogar como tu lo Prefieras.
+            </p>
+          </figcaption>
+        </div>
+
+
+
+        <!-- DEMOSTRACION TRES -->
+
+        <div id="sobreMiCard">
+          <img src="demostraciones/demo 3/nuevo (3)/nuevo/img/demo3.jpeg" autoplay muted loop class="videito"></video>
+          <figcaption id="sobreMi-figcaption-2">
+            <h2 class="card-h2"><a href="demostraciones/demo 3/nuevo (3)/nuevo/index.html">How can we help?</a>
+            </h2>Esta pagina fue contruidad con HTML & CSS y El Tema Centra de esta Pagina Web es de Gestion de Proceso
+            y de Herramienta.
+
+            <p class="card-p">
+            </p>
+          </figcaption>
+        </div>
+
+
+
+    </section>
+
+  </div>
+
+
+
+
+
+
+
+  <section class="conctact-form">
+    <h2 class="conctact-me">¡Contactame! <span></span></h2>
+    <form action="#">
+
+      <div class="imput-box">
+        <input type="text" placeholder="Nombre">
+        <input type="email" placeholder="Emaill">
+      </div>
+      <div class="imput-box">
+        <input type="number" placeholder="Numero de telefono">
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Escribe el mensaje..."></textarea>
+      <input type="submit" value="Enviar mensaje" class="btn-1">
+    </form>
+  </section>
+
+
+
+
+
+  <section id="sobreMi">
+
+    <h1 id="title-sobreMi">Sobre<span> Mi</span></h1>
+
+    <div id="contentCards">
+
+      <div id="sobreMiCard-2">
+        <figure id="sobreMi-figure-2"></figure>
+        <figcaption id="sobreMi-figcaption-1">
+          <h2 class="card-h2">Hobbies</h2>
+          <p class="card-p">Lo Me gusta hacer jugar Video Juego esta es la tecnologia que domino los video juego.
+          </p>
+        </figcaption>
+      </div>
+
+
+
+      <div id="sobreMiCard-3">
+        <figure id="sobreMi-figure-2"></figure>
+        <figcaption id="sobreMi-figcaption-2">
+          <h2 class="card-h2">Aspiraciones</h2>
+          <p class="card-p">Mis Metas Futuras Son Estudiar y Tambien Viajar por el Mundo.</p>
+        </figcaption>
+      </div>
+
+
+
+      <div id="sobreMiCard-4">
+        <figure id="sobreMi-figure-4"></figure>
+        <figcaption id="sobreMi-figcaption-4">
+          <h2 class="card-h2">Deportes</h2>
+          <p class="card-p">Mi Deportes Favorito basquetbool y Las Carreras en Bicicleta. </p>
+        </figcaption>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  </div>
+  </div>
+
+  <footer class="footer">
+    <div class="social">
+
+      <a href="https://github.com/MadelineSIPAML"><i class='bx bxl-github'></i>
+
+        <a href="https://www.instagram.com/madelinetoledo6/profilecard/?igsh=MTB6em5yZGV1NGs5cA=="><i
+            class='bx bxl-instagram-alt'></i>
+    </div>
+    <ul class="list">
+      <li>
+        <a href="#">AML</a>
+      </li>
+      <li>
+        <a href="#"></a>
+      </li>
+      <li>
+        <a href="#">about Me</a>
+      </li>
+      <li>
+        <a href="#">conctact</a>
+      </li>
+      <li>
+        <a href="#">privacy policy</a>
+      </li>
+    </ul>
+    <p class="copyright"> 2024 portafolio Sombre Mi
+    </p>
+  </footer>
+
+
+
+  <script src="pacman.js"></script>
+  <script src="js.js"></script>
+</body>
+
+</html>

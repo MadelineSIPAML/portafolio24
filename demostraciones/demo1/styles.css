@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.navbar {
+    background-color: #333;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #444;
+}
+
+.hero {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.service {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.cta {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cta button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.portfolio {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 20px;
+}
+
+.project p {
+    max-width: 300px;
+} 
+.cont1{
+    justify-content:center;
+    align-items: center;
+    display: flex;
+}
+
+
+.portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.row{
+    display: flex;
+}
+
+.col-1{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(39, 39, 39);
+}
+
+
+.icono-xs{
+    width: 38px;
+    height: 40px;
+}
+
+h1{
+    color: orangered;
+}
+.col-1{
+    color: #fff;
+}
+
+.portfolio{
+ background-color:rgb(39, 39, 39);
+}
+
+.portfolio{
+   color: white;
+   }
+
+ .project h3{
+    color: orangered;
+}
